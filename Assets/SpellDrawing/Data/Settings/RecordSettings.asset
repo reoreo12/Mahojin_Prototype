@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d64644ce9b36a54ba738c4f0d47eac6, type: 3}
+  m_Name: RecordSettings
+  m_EditorClassIdentifier: 
+  recordEnabled: 1
+  writeCsv: 1
+  writeJsonl: 1
+  writePoints: 1
+  writeImages: 1
+  folderName: DrawingLogs
+  thumbnailSize: 256
+  lineThicknessPx: 3
+  thumbnailCacheAttempts: 10
+  overlayHitRatio: 0.5
+  background:
+    serializedVersion: 2
+    rgba: 4280424984
+  templateLine:
+    serializedVersion: 2
+    rgba: 4294953070
+  drawnLine:
+    serializedVersion: 2
+    rgba: 4284139775
+  covered:
+    serializedVersion: 2
+    rgba: 4288714390
+  missed:
+    serializedVersion: 2
+    rgba: 4282137835
+  onTarget:
+    serializedVersion: 2
+    rgba: 4285455440
+  stray:
+    serializedVersion: 2
+    rgba: 4280194815
+  midThreshold: 0.5
+  highThreshold: 0.8
+  lowColor: {r: 0.9, g: 0.3, b: 0.3, a: 1}
+  midColor: {r: 0.95, g: 0.75, b: 0.25, a: 1}
+  highColor: {r: 0.35, g: 0.85, b: 0.45, a: 1}
