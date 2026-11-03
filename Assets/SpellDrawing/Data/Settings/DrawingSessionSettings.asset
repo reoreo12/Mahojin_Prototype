@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb69bebdcce5b9e4faebebf531ed8270, type: 3}
   m_Name: DrawingSessionSettings
   m_EditorClassIdentifier: 
-  timeLimitSec: 8
+  timeLimitSec: 15
   useCountdown: 1
   countdownSec: 3
   guideAlpha: 0.35

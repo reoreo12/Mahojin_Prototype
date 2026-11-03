@@ -6,7 +6,7 @@ namespace VoxelMagic.SpellDrawing
     [CreateAssetMenu(fileName = "DrawingSessionSettings", menuName = "VoxelMagic/SpellDrawing/Drawing Session Settings")]
     public sealed class DrawingSessionSettings : ScriptableObject
     {
-        [SerializeField, Min(0.5f)] private float timeLimitSec = 8f;
+        [SerializeField, Min(0.5f)] private float timeLimitSec = 15f;
         [SerializeField] private bool useCountdown = true;
         [SerializeField, Min(0)] private int countdownSec = 3;
         [SerializeField, Range(0f, 1f)] private float guideAlpha = 0.35f;
